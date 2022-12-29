@@ -1,0 +1,44 @@
+you can use 
+justify content space around to separate two elements inside one parent element to right and left
+
+
+you can use 
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+this thing to give color to your elemments which looks very premium
+
+
+<Navbar name = {saurabh}>
+here saurabh is the variable which present in current component
+and name is send as prop which is used to use it as prop
+
+
+to target elements inside parent
+.i-right>:nth-child(1) {
+    
+}
+
+
+to target elements inside parent with particular tag
+.i-right span :nth-of-child(1) {
+    
+}
+
+
+linear-gradient for styling buttons or background-img
+
+
+using email services in contact form by using emailjs
+ yarn add @emailjs/browser
+
+
+ these are the changes you have to make
+ ref={form} onSubmit={sendEmail} in form tag
+ name of the  input tags in form should be same as the tamplate in emailjs app
+
+before sendEmail function
+  const form = useRef();
+
+
+to add slides in website use 
+  yarn add swiper
+  

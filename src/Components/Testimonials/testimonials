@@ -1,0 +1,19 @@
+In testimonial component we have used swiper library
+like this
+<Swiper
+      modules={[Pagination]}
+      slidesPerView={1}
+      pagination = {{clickable:true}}
+      >
+      {clients.map((client,index)=>{
+        return(
+         < SwiperSlide key={index}>
+          <div className="testimonial">
+          <h3>{client.title}</h3>
+          <img src={client.img} alt="" />
+          <span>{client.review}</span>
+          </div>
+          </SwiperSlide>
+        )
+      })}
+    </Swiper>

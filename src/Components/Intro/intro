@@ -1,0 +1,7 @@
+in this commponent framer-motion library is used to move images
+<motion.img 
+       initial={{left:'50%'}}
+       whileInView = {{top:'6.4rem' , left: '43%'}}
+       transition={transition}
+       src={glassesimoji} alt="" srcset="" />
+       this is its example
