@@ -68,9 +68,9 @@ function Intro() {
        <img src={Vector1} alt="" srcset="" />
        <img src={Vector2} alt="" srcset="" />
        <img src={boy} alt="" srcset=""/>
-       <motion.img 
+       <motion.img    
        initial={{left:'50%'}}
-       whileInView = {{top:'6.4rem' , left: '43%'}}
+       whileInView = {{top:'-2.6rem' , left: '9%'}}
        transition={transition}
        src={glassesimoji} alt="" srcset="" />
        <motion.div className='floating-div'
@@ -83,13 +83,14 @@ function Intro() {
        <FloatingDiv image= {Crown} txt1 = 'Web' txt2='Developer'/>
 
        </motion.div>
-       <motion.div
+       <motion.div 
+       className='floating-div2'
        initial={{left:'45%', top:'75%'}}
-       whileInView={{top: '90%',left:'55.4%'}}
+       whileInView={{top: '85%',left:'19.4%'}}
        transition={transition}
-       
-       
-       style={{top: '86%',left:'56%'}}>
+      
+      
+       style={{top: '86%',left:'19.4%'}}>
       
       <FloatingDiv image= {thumbup} txt1 = 'Competative' txt2='Coder'/>
 

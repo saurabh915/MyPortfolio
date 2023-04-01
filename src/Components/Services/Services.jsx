@@ -15,7 +15,7 @@ function Services() {
   return (
     <div className="services" id='Services'>
         {/* left side */}
-        <div className="awesome">
+        <div className="awesome" id='s-awesome'>
 <span style={{color: darkMode?'white':""}}>My awesome</span>
 <span>services</span>
 <span>
@@ -31,19 +31,21 @@ function Services() {
         {/* right side */}
         <div className="cards">
  <motion.div
- 
+className='fwd'
  whileInView={{left:'14rem'}}
 initial={{left:'19rem'}}
 transition={transition}
 style={{left: '14rem'}}>
 <Card 
+
 emoji = {HeartEmoji}
 heading = {'Frontend Web Development'}
 detail = {"HTML , CSS , JS , React,Bootstrap"}
 />
 </motion.div>
-<div style={{top: '12rem' ,left:'-4rem'}}>
+<div className='bwd' style={{top: '12rem' ,left:'-4rem'}}>
 <Card 
+
 emoji = {Glasses}
 heading = {'Backend Development'}
 detail = {"Nodejs,Mongodb,Express"}
@@ -51,10 +53,11 @@ detail = {"Nodejs,Mongodb,Express"}
 </div>
 <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
 <motion.div 
+className='cc'
  whileInView={{left:'12rem'}}
  initial={{left:'19rem'}}
  transition={transition}
-style={{top: '19rem' ,left:'12rem'}}>
+style={{top: '19rem' ,left:'12rem',width:'30px'}}>
 <Card 
 emoji = {Humble}
 heading = {'Competative Coder'}

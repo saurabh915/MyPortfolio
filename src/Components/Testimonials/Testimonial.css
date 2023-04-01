@@ -64,3 +64,10 @@
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);
 }
+
+
+@media screen and (max-width:480px) {
+.testimonial{
+    height: 20rem;
+}
+}

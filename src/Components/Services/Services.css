@@ -7,6 +7,7 @@
     margin-bottom: 13rem ;
 }
 .awesome{
+    width: 432px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -16,7 +17,7 @@
     color: var(--black);
     font-size: 2.5rem;
     font-weight: bold;
-
+    
 }
 
 .awesome >:nth-child(2){
@@ -31,7 +32,7 @@
     font-size: 14px;
     margin-top: 1rem;
     
- 
+    
 }
 
 .s-button{
@@ -41,7 +42,11 @@
 }
 
 .cards{
-    position: absolute;
+    position: relative;
+    width: 866px;
+    height: 584px;
+    left: -81px;
+    top: -92px;
 }
 .cards>*{
     position: relative;
@@ -71,20 +76,54 @@
 
 @media screen and (max-width:480px) {
     .services{
- 
-        margin-top: 0;
+        top: 287px;
+        left: -50px;
         flex-direction: column;
-        gap: 5rem;
-        height: 66rem;
-        padding: 0;
+        position: relative;
+    }
+    .awesome{
+        margin-bottom: 121px;
+    top: 453px;
     }
     .cards{
-      
+        position: relative;
         display: flex;
+        
         flex-direction: column;
-        gap: 7rem;
+        gap: 364px;
+        left: -247px;
     }
-    .cards>*{
+    .cards>*
+    {
+        display: block;
 position: static;
+    }
+    .blur ,.s-blur2{
+        display: none;
+    }
+ .fwd, .bwd,.cc:nth-of-type(1){
+     position: static;
+    }
+
+    .experience {
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap: 2rem;
+        height: 30vh;
+        flex-wrap: wrap;
+        top: 625px;
+        margin-bottom: 8rem;
+    }
+    .services:nth-child(2)
+    {
+        margin-bottom: 121px;
+        top: 453px;
+        top: -69px;
+    }
+    #s-awesome{
+        margin-bottom: 121px;
+        top: 453px;
+        top: -69px; 
     }
 }

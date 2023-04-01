@@ -47,3 +47,9 @@ box-shadow: var(--boxShadow);
 {
     color: var(--orange);
 }
+@media screen and (max-width:480px) {
+    .experience{
+        gap: 2rem;
+        top: 530px;
+    }
+}

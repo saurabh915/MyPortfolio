@@ -1,4 +1,5 @@
 .floatingDiv{
+    position: absolute;
     justify-content: space-around;
     display: flex;
     background: white;
