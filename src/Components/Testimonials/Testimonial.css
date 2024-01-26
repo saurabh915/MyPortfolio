@@ -69,5 +69,17 @@
 @media screen and (max-width:480px) {
 .testimonial{
     height: 20rem;
+    position: relative;
+    top: -49px;
+    padding: 1rem;
+}
+
+.t-wrapper{
+    position: relative;
+    top: -891px;
+    padding: 10px;
+    flex-direction: column;
+    height: 1535px;
+    margin-bottom: -432px;
 }
 }

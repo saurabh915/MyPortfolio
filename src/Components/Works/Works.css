@@ -1,4 +1,4 @@
-.works{
+.Works{
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
@@ -81,13 +81,25 @@
 }
 
 @media screen and (max-width:480px) {
-    .works{
-
-  top: 496px;
+    .Works{
+display: flex;
+top: 1131px;
 position: relative;
 padding: 2px;
 
 
+
+    }
+    .awesome{
+        top: 191px;
+    }
+
+    .w-right {
+        position: relative;
+        display: flex;
+        left: -793px;
+        top: 451px;
+        align-items: flex-start;
     }
     .awesome >:nth-child(1) {
         color: var(--black);

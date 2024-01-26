@@ -44,11 +44,18 @@
     height: 138vh;
     margin-top: 6rem;
     flex-direction: column;
+    
 }
 .w-left{
-    top: -411px;
-position: relative;
+   position: relative;
+top: -980px;
 }
-
+.c-right{
+    top: -891px;
+    width: 272px;
+    align-items: start;
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
 }

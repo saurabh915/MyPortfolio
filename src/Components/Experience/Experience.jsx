@@ -12,14 +12,14 @@ function Experience() {
     </div>
     <div className="achievements">
         <div className="circle">
-           4+
+           15+
         </div>
         <span>Completed</span>
         <span>Projects</span>
     </div>
     <div className="achievements">
         <div className="circle">
-          X+
+         1
         </div>
         <span>Companies</span>
         <span>Work</span>

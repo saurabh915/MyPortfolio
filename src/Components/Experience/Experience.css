@@ -1,4 +1,5 @@
 .experience{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +50,11 @@ box-shadow: var(--boxShadow);
 }
 @media screen and (max-width:480px) {
     .experience{
+        display: flex;
         gap: 2rem;
-        top: 530px;
+   
+        /* clear: both; */
+        position: relative;
+        top: 1215px;
     }
 }

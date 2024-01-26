@@ -132,5 +132,8 @@
         transform: scale(0.67);
         left: -3rem;
     }
- 
+ .i-icons{
+    position: relative;
+    left: -26px;
+ }
 }

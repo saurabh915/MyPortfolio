@@ -49,7 +49,7 @@ function Intro() {
 
             <img src={LinkedIn} alt=""  />
             </a>
-            <a href="https://leetcode.com/saurabh3699/">
+            <a href="https://leetcode.com/living_code/">
 
 <img src={Leetcode}  style={{    transform: 'scale(2.5)',
     top: '29px',
@@ -80,20 +80,20 @@ function Intro() {
        
        style={{top: '24%',left:'81%'}}>
       
-       <FloatingDiv image= {Crown} txt1 = 'Web' txt2='Developer'/>
+     <a href=""> <FloatingDiv image= {Crown} txt1 = 'Web' txt2='Developer'/></a> 
 
        </motion.div>
        <motion.div 
        className='floating-div2'
-       initial={{left:'45%', top:'75%'}}
-       whileInView={{top: '85%',left:'19.4%'}}
+       initial={{left:'55%', top:'75%'}}
+       whileInView={{top: '87%',left:'23.4%'}}
        transition={transition}
       
       
-       style={{top: '86%',left:'19.4%'}}>
+       style={{top: '90%',left:'19.4%'}}>
       
-      <FloatingDiv image= {thumbup} txt1 = 'Competative' txt2='Coder'/>
-
+      <a href=""><FloatingDiv image= {thumbup} txt1 = 'AI/ML' txt2='Enthusiast'/>
+</a>
       </motion.div>
       <div className="blur" style={{background:"rgb(238 210 255)"}}></div>
     </div>

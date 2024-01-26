@@ -6,8 +6,8 @@ import { useContext } from 'react';
 import { themeContext } from '../../Context';
 function Contact() {
    
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode; 
+const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
  
     const form = useRef();
     const [done,setDone] = useState(false);
