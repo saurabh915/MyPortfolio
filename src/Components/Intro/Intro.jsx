@@ -80,7 +80,7 @@ function Intro() {
        
        style={{top: '24%',left:'81%'}}>
       
-     <a target='_blank' href="https://drive.google.com/drive/folders/1RhfrV_p2JMCCNyJsCex27voLn6a7QusH?usp=sharing"> <FloatingDiv image= {Crown} txt1 = 'Web' txt2='Developer'/></a> 
+     <a target='_blank' rel="noreferrer" href="https://drive.google.com/drive/folders/1RhfrV_p2JMCCNyJsCex27voLn6a7QusH?usp=sharing"> <FloatingDiv image= {Crown} txt1 = 'Web' txt2='Developer'/></a> 
 
        </motion.div>
        <motion.div 
@@ -92,7 +92,7 @@ function Intro() {
       
        style={{top: '90%',left:'19.4%'}}>
       
-      <a target='_blank' href="https://drive.google.com/drive/folders/1hlUXrNBNj-Pyaq7W2cRXaLCbSco8vSB2?usp=sharing"><FloatingDiv image= {thumbup} txt1 = 'AI/ML' txt2='Enthusiast'/>
+      <a target='_blank' rel="noreferrer" href="https://drive.google.com/drive/folders/1hlUXrNBNj-Pyaq7W2cRXaLCbSco8vSB2?usp=sharing"><FloatingDiv image= {thumbup} txt1 = 'AI/ML' txt2='Enthusiast'/>
 </a>
       </motion.div>
       <div className="blur" style={{background:"rgb(238 210 255)"}}></div>
