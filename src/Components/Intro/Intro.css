@@ -99,6 +99,7 @@
     left: 41%;
 }
 @media  screen and (max-width:480px) {
+ 
     .intro{
    
    display: flex;
