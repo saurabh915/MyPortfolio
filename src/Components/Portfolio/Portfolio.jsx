@@ -33,12 +33,12 @@ function Portfolio() {
         
         </SwiperSlide>
         <SwiperSlide>
-            <a href="https://saurabh-patil.netlify.app/">
+            <a href="https://saurabhpatilportfolio.netlify.app/">
             <img src={Portfolio1} alt="" style={{cursor:'pointer'}} />
             </a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="http://inotepage.herokuapp.com/login/">
+        <a href="https://shortnotes.onrender.com/login/">
             <img src={Notepage} alt="" style={{cursor:'pointer'}} />
             </a>
         </SwiperSlide>
@@ -64,7 +64,7 @@ function Portfolio() {
             </a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://dsadraw.onrender.com/">
+        <a href="https://drawtocode.onrender.com/">
             <img src={Drawing} alt="" />
 
             </a>
