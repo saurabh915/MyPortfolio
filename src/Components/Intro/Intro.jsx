@@ -15,6 +15,7 @@ import { themeContext } from '../../Context';
 import {useContext} from 'react';
 import { motion } from 'framer-motion';
 import Geeks from '../../img/letter-g.png'
+import { Link } from 'react-scroll';
 function Intro() {
    
     const theme = useContext(themeContext);
@@ -35,7 +36,9 @@ function Intro() {
                 Frontend Developer with high level of experience in web designing and development,producting the quality work
             </span>
         </div>
+        <Link spy={true} to="Contact" smooth={true} activeClass="activeClass">
         <button className="button i-button">Hire me</button>
+        </Link>
         <div className="i-icons">
             <a href="https://github.com/saurabh915/saurabh915">
             <img src={Github} alt=""   />
